@@ -22,7 +22,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "SocialGrid\\": "app/"
+            "App\\": "app/"
         }
     },
     "autoload-dev": {

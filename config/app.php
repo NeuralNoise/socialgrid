@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        SocialGrid\Providers\AppServiceProvider::class,
-        SocialGrid\Providers\AuthServiceProvider::class,
-        // SocialGrid\Providers\BroadcastServiceProvider::class,
-        SocialGrid\Providers\EventServiceProvider::class,
-        SocialGrid\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
 
     ],
 

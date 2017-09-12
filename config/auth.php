@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => SocialGrid\User::class,
+            'model' => App\User::class,
         ],
 
         // 'users' => [
