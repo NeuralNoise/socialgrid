@@ -10,6 +10,7 @@
 <body>
     @include('layouts.partials.navigation')
     <div class="container">
+        @include('layouts.partials.alerts')
         @yield('main')
     </div>
 </body>
